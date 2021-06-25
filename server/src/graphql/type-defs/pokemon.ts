@@ -7,6 +7,6 @@ export default gql`
   }
 
   type Query {
-   pokemons: [Pokemon]
+   getPokemons: [Pokemon]
   }
 `

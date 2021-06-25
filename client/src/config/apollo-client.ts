@@ -2,7 +2,8 @@ import {
   ApolloClient,
   InMemoryCache,
   createHttpLink,
-  ApolloLink
+  ApolloLink,
+  gql
 } from '@apollo/client'
 
 const httpLink = createHttpLink({
@@ -27,5 +28,14 @@ const client = new ApolloClient({
   link: ApolloLink.from([cleanTypeName, httpLink]),
   cache: new InMemoryCache({ addTypename: false })
 })
+
+export const GET_POKEMONS = gql`
+  query getPokemons {
+    pokemon {
+      id
+      name
+    }
+  }
+`
 
 export default client

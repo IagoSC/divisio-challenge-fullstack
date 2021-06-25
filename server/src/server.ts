@@ -1,4 +1,4 @@
-import app from './config/app'
+import * as app from './config/app'
 
 const PORT = 8000
 
