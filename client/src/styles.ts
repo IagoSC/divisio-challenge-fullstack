@@ -1,10 +1,9 @@
 import styled from 'styled-components'
-import logo from './logo.svg'
 
 export const Container = styled.div`
   text-align: center;
 `
-
+/*
 export const Header = styled.header`
   background-color: #282c34;
   min-height: 100vh;
@@ -44,3 +43,4 @@ export const Logo = styled.img.attrs({
     animation: App-logo-spin infinite 20s linear;
   }
 `
+*/
