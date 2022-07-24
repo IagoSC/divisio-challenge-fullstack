@@ -1,4 +1,5 @@
 # Divisio full stack challenge
+Api Created as a part of a Job Application
 
 ## Story
 Create a pokemon listing using the [PokeAPI](https://pokeapi.co/)
